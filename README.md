@@ -37,3 +37,6 @@ From the booking page the user has the ability to go to the profile page and bac
 
 The user can book dog walks on the booking page and they can edit their profile information and add their own dogs on the profile page.
 
+## Bugs
+
+Looks like a next.js bug, but for client side only components denoted by the use client attribute, on render there is a local storage is undefined bug. Again weird since the browser storage apis should be availble if they truly are client side components

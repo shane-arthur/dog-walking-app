@@ -1,5 +1,3 @@
-'use client'
-
 import { FC, ReactNode } from 'react'
 import { Card } from 'antd'
 import { UserOutlined } from '@ant-design/icons'

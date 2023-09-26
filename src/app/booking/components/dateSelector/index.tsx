@@ -1,5 +1,3 @@
-'use client'
-
 import { FC } from 'react'
 import { format } from 'date-fns'
 import styles from './index.module.css'

@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import { Button, Form, Input } from 'antd';
-import { Goblin_One } from 'next/font/google';
 import styles from './styles.module.css'
 
 const { Item } = Form
