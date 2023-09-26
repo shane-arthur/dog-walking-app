@@ -3,7 +3,6 @@ import { useState } from "react";
 const useLocalStorage = (key: string, defaultValue?: string) => {
     const [localStorageValue, setLocalStorageValue] = useState(() => {
         try {
-            if (!window) return
             const value = localStorage.getItem(key)
 
             if (value) {
@@ -13,7 +12,6 @@ const useLocalStorage = (key: string, defaultValue?: string) => {
                 return defaultValue
             }
         } catch (error) {
-            if (!window) return
             localStorage.setItem(key, JSON.stringify(defaultValue));
             return defaultValue
         }

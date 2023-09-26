@@ -40,3 +40,5 @@ The user can book dog walks on the booking page and they can edit their profile 
 ## Bugs
 
 Looks like a next.js bug, but for client side only components denoted by the use client attribute, on render there is a local storage is undefined bug. Again weird since the browser storage apis should be availble if they truly are client side components
+
+Can remove my dog even if its scheduled for a walk
