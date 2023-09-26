@@ -7,6 +7,10 @@ Developed on Node v20.7.0, so it's recommended to use the same version
 First, run the development server:
 
 ```bash
+npm i
+# or
+yarn i
+# then
 npm run dev
 # or
 yarn dev
