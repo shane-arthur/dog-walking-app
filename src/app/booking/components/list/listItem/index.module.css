@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--black);
+}
+
+.listItemContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--size-medium);
+}
+
+.yourDogContainer {
+    display: flex;
+    align-items: center;
+    gap: var(--size-medium);
+    margin: 0 auto;
+}
+
+.yourDogContainer p {
+    margin: 0;
+    padding: var(--size-medium) 0;
+}

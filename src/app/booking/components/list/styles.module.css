@@ -1,0 +1,33 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.bookingList {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightTitleContent {
+    display: flex;
+    align-items: center;
+    gap: var(--size-medium)
+}
+
+.rightTitleContent button {
+    font-size: 0.7rem;
+    transition: 100ms ease-in-out transform;
+}
+
+.rightTitleContent button:hover {
+    background-color: transparent !important;
+    transform: scale(1.1);
+}
+
+.rightTitleContent button span {
+    color: var(--blue);
+}

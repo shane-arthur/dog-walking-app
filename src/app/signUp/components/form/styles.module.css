@@ -1,0 +1,6 @@
+.formContainer {
+    font-family: inherit;
+    padding: var(--size-large);
+    width: 100%;
+    background-color: white;
+}

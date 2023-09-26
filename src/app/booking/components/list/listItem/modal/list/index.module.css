@@ -1,0 +1,17 @@
+.listContainer {
+    padding: 0;
+}
+
+.listContainer li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--black);
+    padding: var(--size-medium);
+}
+
+.listContainer li div {
+    display: flex;
+    gap: var(--size-small);
+    width: 40%;
+}

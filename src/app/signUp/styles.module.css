@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+}
+
+.container section {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+}

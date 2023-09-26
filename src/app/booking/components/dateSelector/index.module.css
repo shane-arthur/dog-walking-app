@@ -1,0 +1,15 @@
+.dateSelectContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonsContainer {
+    display: flex;
+}
+
+.buttonsContainer button{
+    margin: 0;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}

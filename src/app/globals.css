@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    --light-gray: rgb(211, 211, 211);
+    --dark-gray: #5A5A5A;
+    --black: #000000;
+    --blue: #1677ff;
+    --size-small: 8px;
+    --size-medium: 16px;
+    --size-large: 24px;
+    --size-x-large: 36px;
+}
+
+body {
+    background: linear-gradient(to right, var(--light-gray), var(--dark-gray));
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: var(--size-x-large);
+}

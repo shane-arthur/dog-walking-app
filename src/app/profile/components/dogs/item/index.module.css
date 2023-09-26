@@ -1,0 +1,24 @@
+.dogItemContainer {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--black);
+    padding: var(--size-medium) 0;
+    gap: var(--size-medium)
+}
+
+.dogInfo {
+    display: flex;
+    align-items: center;
+    gap: var(--size-small)
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoContainer p {
+    padding: 0;
+    margin: 0;
+}
