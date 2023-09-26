@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## General Functionality
 
-This app deals with mock data, that is persisted locally to user's localStorage.
+This app deals with mock data that is persisted locally to user's localStorage.
 
 On first launch of the app, the user will be routed to a mock login page.
 
@@ -29,7 +29,7 @@ User is required to fill out the login information (password won't be persisted 
 
 All subsequent launches of the app will route to the app booking page.
 
-From the booking page the user has the ability to go to the profile back and back to the booking page.
+From the booking page the user has the ability to go to the profile page and back to the booking page.
 
-The user can book dog walks on the booking page and they can edit their profile information and add there own dogs on the profile page.
+The user can book dog walks on the booking page and they can edit their profile information and add their own dogs on the profile page.
 
