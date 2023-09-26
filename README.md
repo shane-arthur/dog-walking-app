@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Developed on Node v20.7.0, so it's recommended to use the same version
+
 ## Getting Started
 
 First, run the development server:
@@ -16,21 +18,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## General Functionality
 
-## Learn More
+This app deals with mock data, that is persisted locally to user's localStorage.
 
-To learn more about Next.js, take a look at the following resources:
+On first launch of the app, the user will be routed to a mock login page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+User is required to fill out the login information (password won't be persisted to localStorage)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+All subsequent launches of the app will route to the app booking page.
 
-## Deploy on Vercel
+From the booking page the user has the ability to go to the profile back and back to the booking page.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The user can book dog walks on the booking page and they can edit their profile information and add there own dogs on the profile page.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
